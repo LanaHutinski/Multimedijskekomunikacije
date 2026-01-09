@@ -26,9 +26,11 @@ h2 {
             width: 320px;
             margin: 50px auto;
             text-align: center;
+			font-size: 20px;
 }
 .gumb {
             padding: 12px 20px;
+			font-size: 20px;
             background-color: #2A4D69;
             color: white;
             border: none;
@@ -47,27 +49,14 @@ h2 {
             outline: none;
             box-shadow: 0 0 10px rgba(69, 89, 122, 0.5);
         }
-.input-polje {
-            margin-top: 20px;
-            padding: 10px;
-            width: 100%;
-            border: 2px solid #CCC;
-            border-radius: 8px;
-            transition: border-color 0.3s, box-shadow 0.5s;
-}
-.input-polje:focus {
-            border-color: #2A6C8F;
-            box-shadow: 0 0 8px rgba(69, 89, 122, 0.5);
-            outline: none;
-}
 .kartica {
-            margin-top: 40px;
+            margin-top: 30px;
             padding: 20px;
-            background-color: white;
-            border-radius: 50px 50px 8px 50px;
-            transition: transform 0.4s, box-shadow 0.5s;
+            background-color: #D2DCE4;
+            border-radius: 50px 50px 50px 50px;
+            transition: transform 1s, box-shadow 0.5s;
 }
 .kartica:hover {
-            transform: translateY(-10px) rotate(3deg);
+            transform: translateY(-10px) rotate(5deg);
             box-shadow: 0 12px 20px rgba(69, 89, 122,0.2);
 }
